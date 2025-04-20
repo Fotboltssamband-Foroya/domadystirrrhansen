@@ -5,7 +5,7 @@ import pytz
 import sys
 
 # API endpoint with real match dates
-url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/25/?API_KEY=f0fae77c1258d54e196118a4a862e74df257c0bfc09b8b7b2de22665979b391c0bc2fe297b8fd7ebba3d8cb65aff4fc88c234ef554c19971fefc014d194be88e"
+url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/25/?API_KEY=4e1f5586e2e1844730546169899f00ec3005146d2bce2bd40315a12529461c3c9cd6eb39bbb16c1a9d40be1a135adb6289c85812835372eb650dbaa1f86c2485"
 response = requests.get(url)
 
 try:
@@ -22,8 +22,10 @@ if "results" not in data:
 calendar = Calendar()
 tz = pytz.timezone('Atlantic/Faroe')
 
-for match in data['results'][:1]:
-    print(match)
+for match in data['results']:
+    description = match.get("matchDescription", "Unknown Match")
+    location = match.get("facility", "Unknown Venue")
+    date_str = match.get("localMatchDate")
 
     if date_str:
         try:
