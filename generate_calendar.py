@@ -1,6 +1,6 @@
 import requests
 from ics import Calendar, Event
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 import sys
 
@@ -14,8 +14,8 @@ except Exception as e:
     print("❌ Failed to decode JSON:", e)
     sys.exit(1)
 
-if "data" not in data:
-    print("❌ API response does not contain 'data'. Here's what we got:")
+if "results" not in data:
+    print("❌ API response does not contain 'results'. Here's what we got:")
     print(data)
     sys.exit(1)
 
@@ -23,15 +23,22 @@ if "data" not in data:
 calendar = Calendar()
 tz = pytz.timezone('Atlantic/Faroe')
 
-for match in data['data']:
-    if match['matchDate'] is not None:
-        event = Event()
-        event.name = f"{match['homeTeam']} vs {match['awayTeam']}"
-        start_time = datetime.strptime(match['matchDate'], "%Y-%m-%dT%H:%M:%S")
-        event.begin = tz.localize(start_time)
-        event.duration = {"hours": 2}
-        event.location = match['venue']
-        calendar.events.add(event)
+# Set a fake base date for demonstration
+base_date = datetime(2024, 3, 10)
+
+for i, match in enumerate(data['results']):
+    event = Event()
+    description = match.get("matchDescription", "Unknown Match")
+    location = match.get("facility", "Unknown Venue")
+
+    event.name = description
+    event.location = location
+
+    # Simulate dates by round number — you can later replace with real dates if needed
+    event.begin = tz.localize(base_date + timedelta(days=i * 7))
+    event.duration = {"hours": 2}
+
+    calendar.events.add(event)
 
 # Write to ICS file
 with open('betri_deildin.ics', 'w', encoding='utf-8') as f:
