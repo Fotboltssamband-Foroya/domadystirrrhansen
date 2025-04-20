@@ -11,10 +11,8 @@ data = response.json()
 calendar = Calendar()
 tz = pytz.timezone('Atlantic/Faroe')
 
-for match in data.get('results', []):
-    description = match.get("matchDescription", "Unknown Match")
-    location = match.get("facility", "Unknown Venue")
-    timestamp = match.get("matchDate")
+for match in data.get("results", [])[:1]:
+    print(match)
 
     if timestamp:
         start = datetime.fromtimestamp(timestamp / 1000, tz)
