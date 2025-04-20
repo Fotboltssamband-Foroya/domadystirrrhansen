@@ -1,11 +1,11 @@
 import requests
 from ics import Calendar, Event
-from datetime import datetime, timedelta
+from datetime import datetime
 import pytz
 import sys
 
-# Fetch data from the API
-url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/25/?API_KEY=19fee9cb489e6b3b0ab8e59704ca738ea31c032779e99499e24b8c7f55b57317df241ce808a42f28a44f8a665e326998fa30ad24d0fb603f91882d498ac8e0ce"
+# API endpoint with real match dates
+url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/25/?API_KEY=f0fae77c1258d54e196118a4a862e74df257c0bfc09b8b7b2de22665979b391c0bc2fe297b8fd7ebba3d8cb65aff4fc88c234ef554c19971fefc014d194be88e"
 response = requests.get(url)
 
 try:
@@ -19,27 +19,32 @@ if "results" not in data:
     print(data)
     sys.exit(1)
 
-# Create calendar
 calendar = Calendar()
 tz = pytz.timezone('Atlantic/Faroe')
 
-# Set a fake base date for demonstration
-base_date = datetime(2024, 3, 10)
-
-for i, match in enumerate(data['results']):
-    event = Event()
+for match in data['results']:
     description = match.get("matchDescription", "Unknown Match")
     location = match.get("facility", "Unknown Venue")
+    date_str = match.get("localMatchDate")
 
+    if date_str:
+        try:
+            # Parse date and time from string like "07/03/2025 18:30"
+            start = datetime.strptime(date_str, "%d/%m/%Y %H:%M")
+            start = tz.localize(start)
+        except Exception as e:
+            print(f"⚠️ Could not parse date '{date_str}':", e)
+            continue
+    else:
+        print(f"⚠️ No date found for match: {description}")
+        continue
+
+    event = Event()
     event.name = description
-    event.location = location
-
-    # Simulate dates by round number — you can later replace with real dates if needed
-    event.begin = tz.localize(base_date + timedelta(days=i * 7))
+    event.begin = start
     event.duration = {"hours": 2}
-
+    event.location = location
     calendar.events.add(event)
 
-# Write to ICS file
 with open('betri_deildin.ics', 'w', encoding='utf-8') as f:
     f.write(str(calendar))
