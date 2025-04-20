@@ -5,6 +5,9 @@ on:
     - cron: '0 0 * * *'  # Daily at midnight
   workflow_dispatch:      # Enables the Run workflow button
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
