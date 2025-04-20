@@ -2,8 +2,8 @@ name: Update Betri Deildin Calendar
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Every day at midnight UTC
-  workflow_dispatch:     # Allow manual run
+    - cron: '0 0 * * *'  # Daily at midnight
+  workflow_dispatch:      # Enables the Run workflow button
 
 jobs:
   build:
