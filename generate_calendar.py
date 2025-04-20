@@ -22,10 +22,8 @@ if "results" not in data:
 calendar = Calendar()
 tz = pytz.timezone('Atlantic/Faroe')
 
-for match in data['results']:
-    description = match.get("matchDescription", "Unknown Match")
-    location = match.get("facility", "Unknown Venue")
-    date_str = match.get("localMatchDate")
+for match in data['results'][:1]:  # Just the first match for now
+    print(match)
 
     if date_str:
         try:
