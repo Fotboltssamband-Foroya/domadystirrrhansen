@@ -2,8 +2,8 @@ name: Update Betri Deildin Calendar
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
-  workflow_dispatch:      # Enables manual run button
+    - cron: '0 */3 * * *'  # Every 3 hours
+  workflow_dispatch:
 
 permissions:
   contents: write
