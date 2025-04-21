@@ -1,1 +1,1 @@
-# Dystir-Betri-deildin-menn-2025
+Betri-deildin-menn-B68
