@@ -28,12 +28,11 @@ for match in data.get('results', []):
     event.begin = start
     event.duration = {"hours": 2}
     event.location = location
-    event.description = (
-        f"🏆 {competition}\\n"
-        f"📍 Leikvøllur: {location}\\n"
-        f"🔁 Umfar: {round_number}\\n"
-        f"📊 Støða: {match_status}"
-    )
+event.description = (
+    f"🏆 {competition}\n"
+    f"🔁 Umfar: {round_number}\n"
+    f"📊 Støða: {match_status}"
+)
     calendar.events.add(event)
 
 with open('betri_deildin.ics', 'w', encoding='utf-8') as f:
