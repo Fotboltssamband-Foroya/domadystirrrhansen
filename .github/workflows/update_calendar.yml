@@ -33,7 +33,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add betri_deildin.ics
+          git add roi_referee.ics
           git commit -m "Update calendar" || echo "No changes to commit"
           git push
         env:
