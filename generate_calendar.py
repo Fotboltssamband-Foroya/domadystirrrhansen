@@ -3,8 +3,8 @@ from ics import Calendar, Event
 from datetime import datetime
 import pytz
 
-# API endpoint
-url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/50/?API_KEY=eb76e50daaac67d9cda7413c95c6dcc3074c59bbe2310dd0aff24fb56262e77c8ed6c62503a056b2ccb49eea7fe6b6112da752a80390cff56401d1617caae336"
+# Your personal API link (only your matches)
+url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/25/?API_KEY=bee18954ec763fa777bd2fc08271eacb0ed09237b37f70949a900a83623e60c6f5a4e23615a7d68554e020ab96b5fcbde7297683e42ecddd079d8b3c9b882f30"
 response = requests.get(url)
 data = response.json()
 
@@ -12,15 +12,16 @@ calendar = Calendar()
 tz = pytz.timezone('Atlantic/Faroe')
 
 for match in data.get('results', []):
-    timestamp = match.get("matchDate")
+    timestamp = match.get("date")
     if not timestamp:
-        continue
+        continue  # Skip matches without a date
 
-    description = match.get("matchDescription", "Ókend dystur")
-    location = match.get("facility", "Ókend leikvøllur")
-    match_status = match.get("matchStatus", "")
-    round_number = match.get("round", "")
-    competition = match.get("competitionType", "")
+    description = match.get("matchDescription", "Unknown Match")
+    location = match.get("facility", "Unknown Venue")
+    competition = match.get("name", "Unknown Competition")
+    role = match.get("registrationType", "Unknown Role")
+    round_number = match.get("round", "Unknown Round")
+    status = match.get("matchStatus", "Unknown Status")
 
     start = datetime.fromtimestamp(timestamp / 1000, tz)
 
@@ -31,11 +32,12 @@ for match in data.get('results', []):
     event.location = location
     event.description = (
         f"🏆 {competition}\n"
+        f"👤 {role}\n"
         f"🔁 Umfar: {round_number}\n"
-        f"📊 Støða: {match_status}"
+        f"📊 Støða: {status}"
     )
-
     calendar.events.add(event)
 
-with open('betri_deildin.ics', 'w', encoding='utf-8') as f:
+# Write the calendar to a file
+with open('roi_referee.ics', 'w', encoding='utf-8') as f:
     f.write(str(calendar))
