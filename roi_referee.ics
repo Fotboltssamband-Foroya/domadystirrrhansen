@@ -2,20 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 Thomas Dam Intersport Steypið U21 dreingir 2025\n👤 1 hjálpardómari\n🔁 Umfar: 1/4F\n📊 Støða: SPÆLT
+DESCRIPTION:🏆 Thomas Dam Intersport Steypið U21 dreingir 2025\n👤 2 hjálpardómari\n🔁 Umfar: F\n📊 Støða: SPÆLT
 DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250526T190000Z
-SUMMARY:NSÍ - B71 3:1 AET
-UID:53edd6e5-6b98-4223-8a9d-e0c8f5c5e46b@53ed.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Betri deildin kvinnur ovara endaspæl 2025\n👤 2 hjálpardómari\n🔁 Umfar: 6\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250907T130000Z
-SUMMARY:NSÍ - KÍ 2:2
-UID:f15d1ee7-af05-4999-adc8-4e4dcd2816ca@f15d.org
+LOCATION:Tórsvøllur
+DTSTART:20250912T180000Z
+SUMMARY:AB - B36 0:3
+UID:e0ecd936-bf09-412b-8e85-948a25cb5a35@e0ec.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Betri deildin kvinnur ovara endaspæl 2025\n👤 2 hjálpardómari\n🔁 Umfar: 7\n📊 Støða: SPÆLT
@@ -23,23 +15,7 @@ DURATION:PT2H
 LOCATION:í Sarpugerði
 DTSTART:20250921T111500Z
 SUMMARY:Víkingur - NSÍ 1:3
-UID:4827aaa5-da1c-4383-84f3-568393ca07a6@4827.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Steypakapping kvinnur 2025\n👤 1 hjálpardómari\n🔁 Umfar: F\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:Tórsvøllur
-DTSTART:20250927T180000Z
-SUMMARY:KÍ - HB 0:1
-UID:9509a810-3cb6-4fad-9129-0705ef74f2c3@9509.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:Hoyvíksvøllur
-DTSTART:20250323T170000Z
-SUMMARY:FC Hoyvík - Skála ÍF 0:8
-UID:77981cd1-39e7-4789-a64b-bfefce04ea80@7798.org
+UID:a1159a1b-f766-49b3-b8ba-0feee47f438f@a115.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 1 hjálpardómari\n🔁 Umfar: 9\n📊 Støða: SPÆLT
@@ -47,71 +23,7 @@ DURATION:PT2H
 LOCATION:undir Mýruhjalla
 DTSTART:20250602T190000Z
 SUMMARY:Skála ÍF - B36 4:5
-UID:e3432f9e-ba1a-46d8-b324-871c48d9d468@e343.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir EU A 2025\n👤 2 hjálpardómari\n🔁 Umfar: 7\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250917T190000Z
-SUMMARY:NSÍ - AB 0:3*
-UID:d241d757-565b-4099-8bdd-9a247495e433@d241.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Steypakapping kvinnur 2025\n👤 1 hjálpardómari\n🔁 Umfar: 1/2F\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:undir Mýruhjalla
-DTSTART:20250903T180000Z
-SUMMARY:Skála ÍF - KÍ 1:3
-UID:335f8a36-bcb2-421e-a01a-1ac46a00e0eb@335f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 2 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250417T120000Z
-SUMMARY:NSÍ - Víkingur 1:0
-UID:5a5a1b94-8fee-4479-902e-a4e13c4929dc@5a5a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 2 hjálpardómari\n🔁 Umfar: 8\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250519T190000Z
-SUMMARY:NSÍ - B71 1:1
-UID:d56216bb-192d-4870-9914-3b346d24c889@d562.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Thomas Dam Intersport Steypið U21 dreingir 2025\n👤 2 hjálpardómari\n🔁 Umfar: F\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:Tórsvøllur
-DTSTART:20250912T180000Z
-SUMMARY:AB - B36 0:3
-UID:c299d014-0c56-4dc7-98f6-eafaaa08fc68@c299.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 1 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250421T140000Z
-SUMMARY:NSÍ - B36 2:2
-UID:e90bfec8-4d50-4f7c-92cd-3038c4502d69@e90b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U15 dreingir vetrarkapping Umfar 1 C\n👤 Dómari\n🔁 Umfar: 3\n📊 Støða: CANCELLED
-DURATION:PT2H
-LOCATION:Tórsvøllur
-DTSTART:20250212T000000Z
-SUMMARY:UNKNOWN CLUB - EB 2:0
-UID:4122348e-9b80-4fb8-8b51-6be5df86d86e@4122.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Steypakapping kvinnur 2025\n👤 2 hjálpardómari\n🔁 Umfar: 1/4F\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250618T184500Z
-SUMMARY:NSÍ - HB 0:0 AET (PEN 0:3)
-UID:face3503-16e1-4ee8-9e25-eab26967909b@face.org
+UID:aa0ea085-26e7-487e-8fe9-89b906c425b5@aa0e.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Betri deildin kvinnur ovara endaspæl 2025\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: SPÆLT
@@ -119,71 +31,15 @@ DURATION:PT2H
 LOCATION:Gundadalur\, ovari vøllur
 DTSTART:20250824T110000Z
 SUMMARY:HB - NSÍ 2:3
-UID:750e2c4e-33ad-438f-bfbb-1b1cf1f2ed16@750e.org
+UID:4a21c40d-b427-4087-9f5b-7c356ff7b208@4a21.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 1 hjálpardómari\n🔁 Umfar: 3\n📊 Støða: SPÆLT
+DESCRIPTION:🏆 Steypakapping kvinnur 2025\n👤 1 hjálpardómari\n🔁 Umfar: F\n📊 Støða: SPÆLT
 DURATION:PT2H
-LOCATION:undir Mýruhjalla
-DTSTART:20250331T190000Z
-SUMMARY:Skála ÍF - 07 Vestur 3:0*
-UID:e3c0875e-49a4-446d-95a6-1ecf7fcc9f44@e3c0.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Djúpumýru
-DTSTART:20250412T140000Z
-SUMMARY:KÍ - NSÍ 1:2
-UID:f5a6b35b-993a-429b-a672-2b99879f8938@f5a6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir EU A 2025\n👤 1 hjálpardómari\n🔁 Umfar: 1\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250624T190000Z
-SUMMARY:NSÍ - B36 0:5
-UID:c39711af-747c-4d57-88ad-1d5c9e1ab34f@c397.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir EU A 2025\n👤 2 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250901T190000Z
-SUMMARY:NSÍ - ÍF 1:2
-UID:2aafcbda-708f-4c6b-9788-00779269c1ed@2aaf.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 1 hjálpardómari\n🔁 Umfar: 10\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250524T150000Z
-SUMMARY:NSÍ - FC Hoyvík 10:1
-UID:b240ad78-9caa-4893-8a30-46dda07d19c1@b240.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Betri deildin kvinnur ovara endaspæl 2025\n👤 1 hjálpardómari\n🔁 Umfar: 9\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Djúpumýru
-DTSTART:20251011T140000Z
-SUMMARY:KÍ - NSÍ 2:2
-UID:b0b9ae0b-57e1-46e4-a276-b2a49a5b26a1@b0b9.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Betri deildin kvinnur ovara endaspæl 2025\n👤 1 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20250831T140000Z
-SUMMARY:NSÍ - Víkingur 4:0
-UID:4059b659-0639-45fe-a524-28c2ae0c4e85@4059.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 1 hjálpardómari\n🔁 Umfar: 10\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Djúpumýru
-DTSTART:20250610T193000Z
-SUMMARY:KÍ a - Skála ÍF 2:1
-UID:f1728e43-251a-4eb2-b45b-434834554929@f172.org
+LOCATION:Tórsvøllur
+DTSTART:20250927T180000Z
+SUMMARY:KÍ - HB 0:1
+UID:75648894-4715-4b24-ba45-d7af34f69ba9@7564.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 2 hjálpardómari\n🔁 Umfar: 8\n📊 Støða: SPÆLT
@@ -191,7 +47,31 @@ DURATION:PT2H
 LOCATION:undir Mýruhjalla
 DTSTART:20250513T183000Z
 SUMMARY:Skála ÍF - NSÍ 1:5
-UID:2f57f12c-c610-4e55-bea7-82bca0f31049@2f57.org
+UID:54de0a4e-51c3-4c04-a12f-efffe09025ca@54de.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 1 hjálpardómari\n🔁 Umfar: 10\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250524T150000Z
+SUMMARY:NSÍ - FC Hoyvík 10:1
+UID:70d5aa30-6174-4ad2-8ee7-731facafe947@70d5.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Steypakapping kvinnur 2025\n👤 1 hjálpardómari\n🔁 Umfar: 1/2F\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:undir Mýruhjalla
+DTSTART:20250903T180000Z
+SUMMARY:Skála ÍF - KÍ 1:3
+UID:93ea4df2-d52a-4fa2-a46d-39a5689b8db9@93ea.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Betri deildin kvinnur ovara endaspæl 2025\n👤 1 hjálpardómari\n🔁 Umfar: 9\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Djúpumýru
+DTSTART:20251011T140000Z
+SUMMARY:KÍ - NSÍ 2:2
+UID:2fac85d5-31ae-45fd-907e-a195631ce9b1@2fac.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 2 hjálpardómari\n🔁 Umfar: 1\n📊 Støða: SPÆLT
@@ -199,7 +79,7 @@ DURATION:PT2H
 LOCATION:undir Mýruhjalla
 DTSTART:20250317T200000Z
 SUMMARY:Skála ÍF - B71 2:7
-UID:1103b59b-02c7-474c-b88b-8e0596ba096e@1103.org
+UID:87df161f-c1e5-4fbe-b1e7-784fd05ebd10@87df.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 2 hjálpardómari\n🔁 Umfar: 12\n📊 Støða: SPÆLT
@@ -207,15 +87,7 @@ DURATION:PT2H
 LOCATION:í Sarpugerði
 DTSTART:20250615T120000Z
 SUMMARY:Víkingur - NSÍ 2:6
-UID:cda23eff-7684-4810-8575-5a3130cd913a@cda2.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 1 hjálpardómari\n🔁 Umfar: 14\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Djúpumýru
-DTSTART:20250627T170000Z
-SUMMARY:KÍ - HB 7:1
-UID:db06ad16-0e47-4002-875f-b1443b2a950d@db06.org
+UID:d5ac92e8-fe7c-4825-8e13-95a474732217@d5ac.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: SPÆLT
@@ -223,6 +95,134 @@ DURATION:PT2H
 LOCATION:við Djúpumýru
 DTSTART:20250409T190000Z
 SUMMARY:KÍ a - NSÍ 5:0
-UID:78356b2d-e311-4867-be13-fbc003bc9cdc@7835.org
+UID:58ccb92e-b2e9-4f61-99ed-4a70a7e051b2@58cc.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir EU A 2025\n👤 1 hjálpardómari\n🔁 Umfar: 1\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250624T190000Z
+SUMMARY:NSÍ - B36 0:5
+UID:f44083ee-5dee-4d2c-a167-ad866b7ef7fb@f440.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Thomas Dam Intersport Steypið U21 dreingir 2025\n👤 1 hjálpardómari\n🔁 Umfar: 1/4F\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250526T190000Z
+SUMMARY:NSÍ - B71 3:1 AET
+UID:1dffdedf-65d4-490d-98a1-24f4f5679b21@1dff.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U15 dreingir vetrarkapping Umfar 1 C\n👤 Dómari\n🔁 Umfar: 3\n📊 Støða: CANCELLED
+DURATION:PT2H
+LOCATION:Tórsvøllur
+DTSTART:20250212T000000Z
+SUMMARY:UNKNOWN CLUB - EB 2:0
+UID:caf84125-ed3d-4e43-bb73-466d9da23cdd@caf8.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 1 hjálpardómari\n🔁 Umfar: 3\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:undir Mýruhjalla
+DTSTART:20250331T190000Z
+SUMMARY:Skála ÍF - 07 Vestur 3:0*
+UID:8bcf86c6-e738-4d50-be45-af681e37473d@8bcf.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Betri deildin kvinnur ovara endaspæl 2025\n👤 2 hjálpardómari\n🔁 Umfar: 6\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250907T130000Z
+SUMMARY:NSÍ - KÍ 2:2
+UID:4813485b-3c96-45c5-8a10-57e2bd3a50d4@4813.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Betri deildin kvinnur ovara endaspæl 2025\n👤 1 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250831T140000Z
+SUMMARY:NSÍ - Víkingur 4:0
+UID:051085c5-1acc-4918-9de8-87bb98dd7c28@0510.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:Hoyvíksvøllur
+DTSTART:20250323T170000Z
+SUMMARY:FC Hoyvík - Skála ÍF 0:8
+UID:9ab05bc6-814b-4b1c-97fe-b9b50a4bbd67@9ab0.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 1 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250421T140000Z
+SUMMARY:NSÍ - B36 2:2
+UID:d836b97b-9db5-45c2-b1bd-6dff6541777d@d836.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 1 hjálpardómari\n🔁 Umfar: 14\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Djúpumýru
+DTSTART:20250627T170000Z
+SUMMARY:KÍ - HB 7:1
+UID:8f030c8b-4431-4a42-b5fe-3a74e37648e7@8f03.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 2 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250417T120000Z
+SUMMARY:NSÍ - Víkingur 1:0
+UID:7a738e81-3a49-416a-837e-7ac0bc3116f6@7a73.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 1 hjálpardómari\n🔁 Umfar: 10\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Djúpumýru
+DTSTART:20250610T193000Z
+SUMMARY:KÍ a - Skála ÍF 2:1
+UID:2d35208f-61f6-41ea-ac20-39acade4b821@2d35.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir EU A 2025\n👤 2 hjálpardómari\n🔁 Umfar: 7\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250917T190000Z
+SUMMARY:NSÍ - AB 0:3*
+UID:583ed63b-4e43-45f0-a175-27f34126148f@583e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Steypakapping kvinnur 2025\n👤 2 hjálpardómari\n🔁 Umfar: 1/4F\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250618T184500Z
+SUMMARY:NSÍ - HB 0:0 AET (PEN 0:3)
+UID:ad92b6a6-70af-458a-a04c-16401d8c238e@ad92.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir innl. A 2025\n👤 2 hjálpardómari\n🔁 Umfar: 8\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250519T190000Z
+SUMMARY:NSÍ - B71 1:1
+UID:a033e094-e71f-4937-befd-5422f6674bd0@a033.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Betri deildin kvinnur innl. 2025\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Djúpumýru
+DTSTART:20250412T140000Z
+SUMMARY:KÍ - NSÍ 1:2
+UID:4f63a110-33f3-4955-8223-f1a82c23ae64@4f63.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir EU A 2025\n👤 2 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20250901T190000Z
+SUMMARY:NSÍ - ÍF 1:2
+UID:78dbb436-5315-4aaf-b017-a084918d1317@78db.org
 END:VEVENT
 END:VCALENDAR
