@@ -2,19 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 U18 dreingir innl. A 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: ÁSETT
-DURATION:PT2H
-LOCATION:við Djúpumýru
-DTSTART:20260321T173000Z
-SUMMARY:KÍ - FC Suðuroy -:-
-UID:3df3f49c-f061-4ddc-9527-8b533dbbe851@3df3.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: ÁSETT
 DURATION:PT2H
 LOCATION:við Djúpumýru
 DTSTART:20260329T000000Z
 SUMMARY:KÍ - NSÍ -:-
-UID:feba132a-fd72-4bf3-bb3b-4fa4ca61da27@feba.org
+UID:0eae13ce-f385-48ba-b243-7446a9c17543@0eae.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U18 dreingir innl. A 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: ÁSETT
+DURATION:PT2H
+LOCATION:við Djúpumýru
+DTSTART:20260321T173000Z
+SUMMARY:KÍ - FC Suðuroy -:-
+UID:9d900a2c-3bb1-416a-abab-f5949e939435@9d90.org
 END:VEVENT
 END:VCALENDAR
