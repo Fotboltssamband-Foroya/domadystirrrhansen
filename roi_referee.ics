@@ -2,19 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: ÁSETT
-DURATION:PT2H
-LOCATION:í Sarpugerði
-DTSTART:20260412T230000Z
-SUMMARY:Víkingur - AB -:-
-UID:d1a16ae6-9412-44b3-b73a-0ff537d3101d@d1a1.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
 DURATION:PT2H
 LOCATION:við Djúpumýru
 DTSTART:20260329T140000Z
 SUMMARY:KÍ - NSÍ 4:0
-UID:e2edfa4c-9c7d-49f5-8227-f817da99e37d@e2ed.org
+UID:ee4bd6e1-f58e-4e09-928f-dbff56dcbc91@ee4b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: ÁSETT
+DURATION:PT2H
+LOCATION:í Sarpugerði
+DTSTART:20260412T230000Z
+SUMMARY:Víkingur - AB -:-
+UID:5905ade7-5105-4ff0-8263-048191ca07e4@5905.org
 END:VEVENT
 END:VCALENDAR
