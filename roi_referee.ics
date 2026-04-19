@@ -2,28 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Djúpumýru
+DTSTART:20260329T140000Z
+SUMMARY:KÍ - NSÍ 4:0
+UID:66a071a3-975b-4281-8df5-0ee3916ab0ac@66a0.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 3\n📊 Støða: ÁSETT
 DURATION:PT2H
 LOCATION:við Djúpumýru
 DTSTART:20260422T190000Z
 SUMMARY:KÍ - Víkingur -:-
-UID:04bf168c-06a5-476a-aad3-362ad6ffdd20@04bf.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:Uppi á brekkum
-DTSTART:20260413T170000Z
-SUMMARY:Víkingur - AB 0:10
-UID:b467838c-d5e0-486c-9543-6f5b5dbdf18e@b467.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
-DURATION:PT2H
-LOCATION:við Djúpumýru
-DTSTART:20260426T230000Z
-SUMMARY:KÍ - NSÍ -:-
-UID:b03e7ee6-7da8-48b4-bc39-81ad5e1a6e72@b03e.org
+UID:14160edf-964d-43fc-9e0c-6bcd59dcc0c8@1416.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
@@ -31,14 +23,22 @@ DURATION:PT2H
 LOCATION:við Løkin
 DTSTART:20260424T230000Z
 SUMMARY:NSÍ - HB -:-
-UID:eb2f5a10-bbca-45e2-8fdc-d1f4af9c15fa@eb2f.org
+UID:9952747c-ad70-47f6-b49e-1c01b9f16e3e@9952.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
 DURATION:PT2H
 LOCATION:við Djúpumýru
-DTSTART:20260329T140000Z
-SUMMARY:KÍ - NSÍ 4:0
-UID:aa1fa07a-ae3f-4644-8d49-03c6f0873d15@aa1f.org
+DTSTART:20260426T230000Z
+SUMMARY:KÍ - NSÍ -:-
+UID:4dbbef21-2d43-405f-ae41-57adc007a433@4dbb.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:Uppi á brekkum
+DTSTART:20260413T170000Z
+SUMMARY:Víkingur - AB 0:10
+UID:76bd6494-5cf1-4b2e-8b25-e7e202c3e0ee@76bd.org
 END:VEVENT
 END:VCALENDAR
