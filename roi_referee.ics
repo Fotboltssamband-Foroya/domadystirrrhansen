@@ -2,36 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Djúpumýru
-DTSTART:20260329T140000Z
-SUMMARY:KÍ - NSÍ 4:0
-UID:20b040cc-249d-4daf-8f80-98d0804d5bbd@20b0.org
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 3\n📊 Støða: ÁSETT
 DURATION:PT2H
 LOCATION:við Djúpumýru
 DTSTART:20260422T190000Z
 SUMMARY:KÍ - Víkingur -:-
-UID:efb8d282-f185-4ef2-8607-3c30b821e43f@efb8.org
+UID:bdac1593-ca06-4101-abbf-ea3f107032d5@bdac.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
 DURATION:PT2H
 LOCATION:við Djúpumýru
-DTSTART:20260426T230000Z
-SUMMARY:KÍ - NSÍ -:-
-UID:cad4a284-cdd2-446b-8469-ee433a509957@cad4.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:Uppi á brekkum
-DTSTART:20260413T170000Z
-SUMMARY:Víkingur - AB 0:10
-UID:81f894ae-00dd-4ed6-ba9e-eafd4683e9f4@81f8.org
+DTSTART:20260329T140000Z
+SUMMARY:KÍ - NSÍ 4:0
+UID:d4491c5e-ddb3-4b19-bb6c-200bdf07058c@d449.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
@@ -39,6 +23,22 @@ DURATION:PT2H
 LOCATION:við Løkin
 DTSTART:20260424T230000Z
 SUMMARY:NSÍ - HB -:-
-UID:e59bc0fa-811e-4b00-9695-68e0b55c1cb4@e59b.org
+UID:074aa155-c1d6-4ffa-a431-3e1aa88331fa@074a.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
+DURATION:PT2H
+LOCATION:við Djúpumýru
+DTSTART:20260426T230000Z
+SUMMARY:KÍ - NSÍ -:-
+UID:c99bd53a-115d-4913-a718-38be12806602@c99b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:Uppi á brekkum
+DTSTART:20260413T170000Z
+SUMMARY:Víkingur - AB 0:10
+UID:aa296d7c-b8bf-4c03-bc82-a4b72ad28887@aa29.org
 END:VEVENT
 END:VCALENDAR
