@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 3\n📊 Støða: ÁSETT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
 DURATION:PT2H
 LOCATION:við Djúpumýru
-DTSTART:20260422T190000Z
-SUMMARY:KÍ - Víkingur -:-
-UID:b0079ac5-891d-4fdd-9778-b1b7ff944e3a@b007.org
+DTSTART:20260329T140000Z
+SUMMARY:KÍ - NSÍ 4:0
+UID:d2c6e16e-51a4-4d1b-972d-fae830a79bd8@d2c6.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
@@ -15,23 +15,15 @@ DURATION:PT2H
 LOCATION:við Djúpumýru
 DTSTART:20260426T230000Z
 SUMMARY:KÍ - NSÍ -:-
-UID:5b7ea336-ac9f-4c17-bd2e-1509e606866a@5b7e.org
+UID:110e4f9f-bc42-4e99-aa53-bf6c2be89e35@110e.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 3\n📊 Støða: ÁSETT
 DURATION:PT2H
 LOCATION:við Djúpumýru
-DTSTART:20260329T140000Z
-SUMMARY:KÍ - NSÍ 4:0
-UID:150dc71c-7719-48da-9094-d2630039a775@150d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20260424T230000Z
-SUMMARY:NSÍ - HB -:-
-UID:9cb84d36-8c4b-4af1-acd9-4b24659b5352@9cb8.org
+DTSTART:20260422T190000Z
+SUMMARY:KÍ - Víkingur -:-
+UID:c6d8c8a7-ec0f-4517-a87b-37d51d7f2f76@c6d8.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
@@ -39,6 +31,14 @@ DURATION:PT2H
 LOCATION:Uppi á brekkum
 DTSTART:20260413T170000Z
 SUMMARY:Víkingur - AB 0:10
-UID:f9a0b4e7-712a-4dea-8bd7-040df28c97df@f9a0.org
+UID:97ab5d69-b9c1-4a3a-a50e-c36f3b665aca@97ab.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20260424T230000Z
+SUMMARY:NSÍ - HB -:-
+UID:1208b999-be3b-40f0-a2f4-719574f07840@1208.org
 END:VEVENT
 END:VCALENDAR
