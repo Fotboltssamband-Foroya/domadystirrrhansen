@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 3\n📊 Støða: ÁSETT
 DURATION:PT2H
 LOCATION:við Djúpumýru
-DTSTART:20260426T230000Z
-SUMMARY:KÍ - NSÍ -:-
-UID:f79c1453-8e26-4212-a60f-72cf0ab0f971@f79c.org
+DTSTART:20260422T190000Z
+SUMMARY:KÍ - Víkingur -:-
+UID:e0136511-ad77-4f29-9187-7b621bb90366@e013.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
@@ -15,7 +15,7 @@ DURATION:PT2H
 LOCATION:við Løkin
 DTSTART:20260424T230000Z
 SUMMARY:NSÍ - HB -:-
-UID:9c8d3553-0939-4485-94ae-9046f9641448@9c8d.org
+UID:4f0cdb29-a23a-4d80-b17a-0f0cc6642482@4f0c.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
@@ -23,7 +23,15 @@ DURATION:PT2H
 LOCATION:Uppi á brekkum
 DTSTART:20260413T170000Z
 SUMMARY:Víkingur - AB 0:10
-UID:bb98098d-daef-46a3-88ea-10addb6e6829@bb98.org
+UID:ed9ed48e-a9ac-4e14-9bc1-2b9d81bd09ae@ed9e.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
+DURATION:PT2H
+LOCATION:við Djúpumýru
+DTSTART:20260426T230000Z
+SUMMARY:KÍ - NSÍ -:-
+UID:f2af9e15-de86-4df8-82dd-1d874d29bff5@f2af.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
@@ -31,14 +39,6 @@ DURATION:PT2H
 LOCATION:við Djúpumýru
 DTSTART:20260329T140000Z
 SUMMARY:KÍ - NSÍ 4:0
-UID:f294355d-df9b-4966-8e30-538377197e18@f294.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 3\n📊 Støða: ÁSETT
-DURATION:PT2H
-LOCATION:við Djúpumýru
-DTSTART:20260422T190000Z
-SUMMARY:KÍ - Víkingur -:-
-UID:126b0eed-a350-4c37-87cd-dfab9f4d7118@126b.org
+UID:0ce19b73-0d82-4a35-8c97-b7d4d0035265@0ce1.org
 END:VEVENT
 END:VCALENDAR
