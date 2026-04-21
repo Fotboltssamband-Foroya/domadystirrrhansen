@@ -2,20 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
 DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20260424T230000Z
-SUMMARY:NSÍ - HB -:-
-UID:079a6a06-38aa-4d99-a32c-dbad8a9210e5@079a.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
-DURATION:PT2H
-LOCATION:við Djúpumýru
-DTSTART:20260426T230000Z
-SUMMARY:KÍ - NSÍ -:-
-UID:4c262e79-cdb0-4eb7-8ee5-fbbe12ba0fec@4c26.org
+LOCATION:Uppi á brekkum
+DTSTART:20260413T170000Z
+SUMMARY:Víkingur - AB 0:10
+UID:2e4210af-2c1e-45e4-bd04-dc98fbe8d095@2e42.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 3\n📊 Støða: ÁSETT
@@ -23,7 +15,7 @@ DURATION:PT2H
 LOCATION:við Djúpumýru
 DTSTART:20260422T190000Z
 SUMMARY:KÍ - Víkingur -:-
-UID:db1b2bac-8f0c-414d-92bf-67405f13ec94@db1b.org
+UID:f1bfa019-9dea-47ad-aca5-e7e7db91db62@f1bf.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
@@ -31,14 +23,22 @@ DURATION:PT2H
 LOCATION:við Djúpumýru
 DTSTART:20260329T140000Z
 SUMMARY:KÍ - NSÍ 4:0
-UID:61760818-9dfb-44dd-8814-5c4fc6387c6a@6176.org
+UID:376a3ec3-756e-4c0f-9fbe-9f41cf44ae6c@376a.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
 DURATION:PT2H
-LOCATION:Uppi á brekkum
-DTSTART:20260413T170000Z
-SUMMARY:Víkingur - AB 0:10
-UID:1e351801-a81c-41fc-94ec-be1657bbb6c1@1e35.org
+LOCATION:við Djúpumýru
+DTSTART:20260426T230000Z
+SUMMARY:KÍ - NSÍ -:-
+UID:4a120464-fd48-4526-91a6-f45dd7d873c7@4a12.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20260424T230000Z
+SUMMARY:NSÍ - HB -:-
+UID:2d2108aa-abe6-4a58-b4ad-144d8cdc2ebf@2d21.org
 END:VEVENT
 END:VCALENDAR
