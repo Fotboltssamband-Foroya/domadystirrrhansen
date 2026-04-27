@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: SPÆLT
 DURATION:PT2H
-LOCATION:Uppi á brekkum
-DTSTART:20260413T170000Z
-SUMMARY:Víkingur - AB 0:10
-UID:8ff491f5-2b8b-4106-aa4b-093f068a58c5@8ff4.org
+LOCATION:við Løkin
+DTSTART:20260425T150000Z
+SUMMARY:NSÍ - HB 0:4
+UID:873fd59e-9e6d-4c0b-8f2c-5cc55c7c8fee@873f.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: ÁSETT
@@ -15,23 +15,15 @@ DURATION:PT2H
 LOCATION:Tórsvøllur
 DTSTART:20260427T191500Z
 SUMMARY:B36 - KÍ -:-
-UID:af18c17f-93c9-492d-b9be-9b480d0e17a7@af18.org
+UID:b1074fb1-4d3c-4ef2-a496-a8533cbafd1f@b107.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: SPÆLT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
 DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20260425T150000Z
-SUMMARY:NSÍ - HB 0:4
-UID:e92cce0e-6e94-477c-a19f-fb7aa5ffbf95@e92c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
-DURATION:PT2H
-LOCATION:við Djúpumýru
-DTSTART:20260427T190000Z
-SUMMARY:KÍ - NSÍ -:-
-UID:eb86179c-8263-4c76-b061-77110a0ecb2f@eb86.org
+LOCATION:Uppi á brekkum
+DTSTART:20260413T170000Z
+SUMMARY:Víkingur - AB 0:10
+UID:bf7afb8d-4d52-4fe7-9414-e2b95e6ed001@bf7a.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
@@ -39,6 +31,14 @@ DURATION:PT2H
 LOCATION:við Djúpumýru
 DTSTART:20260329T140000Z
 SUMMARY:KÍ - NSÍ 4:0
-UID:00aa2ff6-bbbf-4dd7-bd7b-9c644553cb3b@00aa.org
+UID:181cf06e-ca51-4331-b1b2-e9edca800ddc@181c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
+DURATION:PT2H
+LOCATION:við Djúpumýru
+DTSTART:20260427T190000Z
+SUMMARY:KÍ - NSÍ -:-
+UID:7d111a04-6cfb-4b74-bfec-0856167bcae3@7d11.org
 END:VEVENT
 END:VCALENDAR
