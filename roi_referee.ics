@@ -2,36 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 8\n📊 Støða: ÁSETT
-DURATION:PT2H
-LOCATION:undir Mýruhjalla
-DTSTART:20260518T184500Z
-SUMMARY:Skála ÍF - NSÍ -:-
-UID:34f35244-60c7-4d1f-b777-ee1cba0aeb47@34f3.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20260425T150000Z
-SUMMARY:NSÍ - HB 0:4
-UID:87ad390f-ddda-4d1f-bbc8-775a9366b25d@87ad.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 2 hjálpardómari\n🔁 Umfar: 7\n📊 Støða: SPÆLT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
 DURATION:PT2H
 LOCATION:Djúpumýra
-DTSTART:20260510T140000Z
-SUMMARY:KÍ - Skála ÍF 5:0
-UID:c7727675-68ee-4d6d-9801-4b64f1f075b6@c772.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
-DURATION:PT2H
-LOCATION:Djúpumýra
-DTSTART:20260329T140000Z
-SUMMARY:KÍ - NSÍ 4:0
-UID:d5cf6354-180f-471d-bde5-906791692ad8@d5cf.org
+DTSTART:20260629T190000Z
+SUMMARY:KÍ - NSÍ -:-
+UID:278248aa-7ae9-41a6-8f4b-d05180e9d3a7@2782.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Løgmanssteypið kvinnur 2026\n👤 1 hjálpardómari\n🔁 Umfar: 1/4F\n📊 Støða: ÁSETT
@@ -39,7 +15,7 @@ DURATION:PT2H
 LOCATION:við Løkin
 DTSTART:20260520T230000Z
 SUMMARY:NSÍ - Víkingur -:-
-UID:6f373bea-2578-401d-9513-3ec74dc6589d@6f37.org
+UID:3a756faf-976a-4f97-8934-dbda30f0ff4e@3a75.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT
@@ -47,15 +23,15 @@ DURATION:PT2H
 LOCATION:Tórsvøllur
 DTSTART:20260427T191500Z
 SUMMARY:B36 - KÍ 2:2
-UID:9c96833c-2fdf-4aa9-af8e-74f59e67770c@9c96.org
+UID:577341d8-8060-4561-8021-9bf19d784b52@5773.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 2 hjálpardómari\n🔁 Umfar: 7\n📊 Støða: SPÆLT
 DURATION:PT2H
 LOCATION:Djúpumýra
-DTSTART:20260629T190000Z
-SUMMARY:KÍ - NSÍ -:-
-UID:b61b12a7-85a2-482d-9d1f-b00e9deffdb6@b61b.org
+DTSTART:20260510T140000Z
+SUMMARY:KÍ - Skála ÍF 5:0
+UID:9b1ad42d-7260-482c-a61e-d5c4e2b62e90@9b1a.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT
@@ -63,6 +39,30 @@ DURATION:PT2H
 LOCATION:undir Mýruhjalla
 DTSTART:20260514T180000Z
 SUMMARY:Skála ÍF - HB 1:3
-UID:26b2df15-76b1-4c3f-b620-3d99c6d4367d@26b2.org
+UID:499ca37d-ff44-4111-bcf8-581cf6375db3@499c.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20260425T150000Z
+SUMMARY:NSÍ - HB 0:4
+UID:b978dfd0-b44f-4cd4-b658-e8defd080159@b978.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 2\n📊 Støða: SPÆLT
+DURATION:PT2H
+LOCATION:Djúpumýra
+DTSTART:20260329T140000Z
+SUMMARY:KÍ - NSÍ 4:0
+UID:fd49272a-d048-46b2-a35c-cedc495963e4@fd49.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 8\n📊 Støða: ÁSETT
+DURATION:PT2H
+LOCATION:undir Mýruhjalla
+DTSTART:20260518T184500Z
+SUMMARY:Skála ÍF - NSÍ -:-
+UID:7c42014e-e49f-4c61-8e24-ca7b5dac84bc@7c42.org
 END:VEVENT
 END:VCALENDAR
