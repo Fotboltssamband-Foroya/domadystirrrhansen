@@ -30,6 +30,7 @@ officials_data = officials_response.json()
 officials_by_match = {}
 
 for row in officials_data.get("results", []):
+    print(row)
 
     match_id = str(row.get("matchId"))
 
