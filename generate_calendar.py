@@ -2,7 +2,7 @@ import requests
 from ics import Calendar, Event
 from datetime import datetime
 import pytz
-from datetime import datetime, timedeltajsut plasessss
+from datetime import datetime
 
 # =========================================
 # API URLS
