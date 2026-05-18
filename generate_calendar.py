@@ -1,8 +1,7 @@
 import requests
 from ics import Calendar, Event
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
-from datetime import datetime
 
 # =========================================
 # API URLS
@@ -25,13 +24,21 @@ officials_response = requests.get(officials_url)
 officials_data = officials_response.json()
 
 # =========================================
+# TIMEZONE
+# =========================================
+
+tz = pytz.timezone('Atlantic/Faroe')
+
+# =========================================
 # TIME FILTER
 # =========================================
 
 now = datetime.now(tz)
 
 # Keep matches from the last 7 days
+
 # and all future matches
+
 cutoff = now - timedelta(days=7)
 
 # =========================================
