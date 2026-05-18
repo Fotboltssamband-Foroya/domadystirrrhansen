@@ -2,6 +2,7 @@ import requests
 from ics import Calendar, Event
 from datetime import datetime
 import pytz
+from datetime import datetime, timedeltajsut plasessss
 
 # =========================================
 # API URLS
@@ -24,17 +25,32 @@ officials_response = requests.get(officials_url)
 officials_data = officials_response.json()
 
 # =========================================
+# TIME FILTER
+# =========================================
+
+now = datetime.now(tz)
+
+# Keep matches from the last 7 days
+# and all future matches
+cutoff = now - timedelta(days=7)
+
+# =========================================
 # BUILD OFFICIALS DICTIONARY
 # =========================================
 
 officials_by_match = {}
 
 for row in officials_data.get("results", []):
-    print(row)
 
     match_id = str(row.get("matchId"))
 
     if not match_id:
+        continue
+
+    # Skip cancelled officials
+    role_status = row.get("roleStatus", "")
+
+    if role_status == "CANCELLED":
         continue
 
     person_name = row.get("personName", "Unknown")
@@ -53,8 +69,6 @@ for row in officials_data.get("results", []):
 
 calendar = Calendar()
 
-tz = pytz.timezone('Atlantic/Faroe')
-
 # =========================================
 # LOOP THROUGH YOUR MATCHES
 # =========================================
@@ -66,6 +80,12 @@ for match in matches_data.get('results', []):
     if not timestamp:
         continue
 
+    start = datetime.fromtimestamp(timestamp / 1000, tz)
+
+    # Skip old matches
+    if start < cutoff:
+        continue
+
     match_id = str(match.get("matchId"))
 
     description = match.get("matchDescription", "Unknown Match")
@@ -74,8 +94,6 @@ for match in matches_data.get('results', []):
     role = match.get("registrationType", "Unknown Role")
     round_number = match.get("round", "Unknown Round")
     status = match.get("matchStatus", "Unknown Status")
-
-    start = datetime.fromtimestamp(timestamp / 1000, tz)
 
     # =========================================
     # GET OFFICIALS FOR THIS MATCH
@@ -107,7 +125,7 @@ for match in matches_data.get('results', []):
         f"👤 {role}\n"
         f"🔁 Umfar: {round_number}\n"
         f"📊 Støða: {status}\n\n"
-        f"🚩 Dómarar:\n"
+        f"🧑‍⚖️ Dómarar:\n"
         f"{officials_text}"
     )
 
