@@ -11,7 +11,7 @@ import pytz
 matches_url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/25/?API_KEY=0004RlNG1622b32e32abc567539f1220fc08b1e5bf0efb05fe4eeb725566c9bf8da412e90b1f85903cea3cf1d04a33e718b8a0184b0fc099becfbf01bdf667ab"
 
 # Report with ALL officials on matches
-officials_url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/500/?API_KEY=0004RlNGe23fc15cbacd1c2ce1344810abf6fa0e656443c4de0c2fdb8cb25413c4fefd978f8314637f17a1b243409c829d1c38de01b620d62a7f60d4ec541355"
+officials_url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/1000/?API_KEY=0004RlNG489c5a0d8e0e60daf7914e97c5905162e6f6f9ed641645e6e7d1f7c52d53475d15748670eb3fbfe8ec65c466a3b0a133a5e34b8457a9106724ca8603"
 
 # =========================================
 # FETCH DATA
@@ -107,7 +107,7 @@ for match in matches_data.get('results', []):
         f"👤 {role}\n"
         f"🔁 Umfar: {round_number}\n"
         f"📊 Støða: {status}\n\n"
-        f"🧑‍⚖️ Dómarar:\n"
+        f"🚩 Dómarar:\n"
         f"{officials_text}"
     )
 
