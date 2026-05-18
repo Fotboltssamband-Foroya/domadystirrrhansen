@@ -11,7 +11,7 @@ import pytz
 matches_url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/25/?API_KEY=0004RlNG1622b32e32abc567539f1220fc08b1e5bf0efb05fe4eeb725566c9bf8da412e90b1f85903cea3cf1d04a33e718b8a0184b0fc099becfbf01bdf667ab"
 
 # Report with ALL officials on matches
-officials_url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/25/?API_KEY=0004RlNGe23fc15cbacd1c2ce1344810abf6fa0e656443c4de0c2fdb8cb25413c4fefd978f8314637f17a1b243409c829d1c38de01b620d62a7f60d4ec541355"
+officials_url = "https://comet.fsf.fo/data-backend/api/public/areports/run/0/500/?API_KEY=0004RlNGe23fc15cbacd1c2ce1344810abf6fa0e656443c4de0c2fdb8cb25413c4fefd978f8314637f17a1b243409c829d1c38de01b620d62a7f60d4ec541355"
 
 # =========================================
 # FETCH DATA
@@ -31,7 +31,7 @@ officials_by_match = {}
 
 for row in officials_data.get("results", []):
 
-    match_id = row.get("matchId")
+    match_id = str(row.get("matchId"))
 
     if not match_id:
         continue
@@ -65,7 +65,7 @@ for match in matches_data.get('results', []):
     if not timestamp:
         continue
 
-    match_id = match.get("matchId")
+    match_id = str(match.get("matchId"))
 
     description = match.get("matchDescription", "Unknown Match")
     location = match.get("facility", "Unknown Venue")
