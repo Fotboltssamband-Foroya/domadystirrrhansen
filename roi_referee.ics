@@ -2,20 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 Løgmanssteypið kvinnur 2026\n👤 1 hjálpardómari\n🔁 Umfar: 1/4F\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Gunnar Christiansen\n1 hjálpardómari: Rói Reinert Hansen\n2 hjálpardómari: Fróði Johannesen
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20260521T190000Z
-SUMMARY:NSÍ - Víkingur -:-
-UID:402dbcaf-806d-4594-b6cb-5aee080750a7@402d.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT\n\n🧑‍⚖️ Dómarar:\nDómari: Magnus Jarnskor\n1 hjálpardómari: Rói Reinert Hansen\n2 hjálpardómari: Líggjas Samuelsen\nDómari: Emil Tórhallur Thomsen\n2 hjálpardómari: Símeon Sigurstein\nDómari: Arnar Lognberg
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 8\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Rói Reinert Hansen\n2 hjálpardómari: Ingi Johannessen
 DURATION:PT2H
 LOCATION:undir Mýruhjalla
-DTSTART:20260514T180000Z
-SUMMARY:Skála ÍF - HB 1:3
-UID:2e395e4c-667c-4b20-8a25-da85dad362e9@2e39.org
+DTSTART:20260518T184500Z
+SUMMARY:Skála ÍF - NSÍ -:-
+UID:b3c24d50-b255-4a4e-bc5c-c8fa1e18e78a@b3c2.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Johnleif Gerðisá\n2 hjálpardómari: Rói Reinert Hansen
@@ -23,14 +15,22 @@ DURATION:PT2H
 LOCATION:Djúpumýra
 DTSTART:20260629T190000Z
 SUMMARY:KÍ - NSÍ -:-
-UID:1a55eeef-eca7-4f6a-9e7d-f36b440cb49f@1a55.org
+UID:3ecc8ca5-e6f8-4516-9dfb-deca83f3fcd5@3ecc.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 8\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Rói Reinert Hansen\n2 hjálpardómari: Ingi Johannessen
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT\n\n🧑‍⚖️ Dómarar:\nDómari: Magnus Jarnskor\n1 hjálpardómari: Rói Reinert Hansen\n2 hjálpardómari: Líggjas Samuelsen\nDómari: Emil Tórhallur Thomsen\n2 hjálpardómari: Símeon Sigurstein\nDómari: Arnar Lognberg
 DURATION:PT2H
 LOCATION:undir Mýruhjalla
-DTSTART:20260518T184500Z
-SUMMARY:Skála ÍF - NSÍ -:-
-UID:a5b4102c-0fce-4587-8b72-3489fe32f0ca@a5b4.org
+DTSTART:20260514T180000Z
+SUMMARY:Skála ÍF - HB 1:3
+UID:e25db7dc-5d4d-4960-bc02-078b05c3b12b@e25d.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Løgmanssteypið kvinnur 2026\n👤 1 hjálpardómari\n🔁 Umfar: 1/4F\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Gunnar Christiansen\n1 hjálpardómari: Rói Reinert Hansen\n2 hjálpardómari: Fróði Johannesen
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20260521T190000Z
+SUMMARY:NSÍ - Víkingur -:-
+UID:5eaf8693-536d-4b91-8671-eed4821fafd0@5eaf.org
 END:VEVENT
 END:VCALENDAR
