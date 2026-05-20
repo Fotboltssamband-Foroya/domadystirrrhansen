@@ -2,20 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 9\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 8\n📊 Støða: SPÆLT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Rói Reinert Hansen\n2 hjálpardómari: Ingi Johannessen
 DURATION:PT2H
 LOCATION:undir Mýruhjalla
-DTSTART:20260525T130000Z
-SUMMARY:Skála ÍF - Víkingur -:-
-UID:691ce038-cb07-4e63-b723-719610fb4094@691c.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Johnleif Gerðisá\n2 hjálpardómari: Rói Reinert Hansen
-DURATION:PT2H
-LOCATION:Djúpumýra
-DTSTART:20260629T190000Z
-SUMMARY:KÍ - NSÍ -:-
-UID:6fe833e1-8ac1-4d70-bad8-cb0b0e8cb39d@6fe8.org
+DTSTART:20260518T184500Z
+SUMMARY:Skála ÍF - NSÍ 0:4
+UID:16dfbbeb-505f-4d87-88c2-99ca7ac348fd@16df.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 5\n📊 Støða: SPÆLT\n\n🧑‍⚖️ Dómarar:\nDómari: Magnus Jarnskor\n1 hjálpardómari: Rói Reinert Hansen\n2 hjálpardómari: Líggjas Samuelsen\nDómari: Emil Tórhallur Thomsen\n2 hjálpardómari: Símeon Sigurstein\nDómari: Arnar Lognberg
@@ -23,15 +15,15 @@ DURATION:PT2H
 LOCATION:undir Mýruhjalla
 DTSTART:20260514T180000Z
 SUMMARY:Skála ÍF - HB 1:3
-UID:2b0d3eff-d303-4fc1-a3da-855c746ab833@2b0d.org
+UID:15581115-b1eb-4b39-bec3-14b13df8bafe@1558.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 8\n📊 Støða: SPÆLT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Rói Reinert Hansen\n2 hjálpardómari: Ingi Johannessen
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Johnleif Gerðisá\n2 hjálpardómari: Rói Reinert Hansen
 DURATION:PT2H
-LOCATION:undir Mýruhjalla
-DTSTART:20260518T184500Z
-SUMMARY:Skála ÍF - NSÍ 0:4
-UID:63a738c3-9e26-46a8-ab4d-2a2ccdfc2d73@63a7.org
+LOCATION:Djúpumýra
+DTSTART:20260629T190000Z
+SUMMARY:KÍ - NSÍ -:-
+UID:537720d6-1365-4541-9a31-4388687040fd@5377.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Løgmanssteypið kvinnur 2026\n👤 1 hjálpardómari\n🔁 Umfar: 1/4F\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Gunnar Christiansen\n1 hjálpardómari: Rói Reinert Hansen\n2 hjálpardómari: Fróði Johannesen
@@ -39,6 +31,14 @@ DURATION:PT2H
 LOCATION:við Løkin
 DTSTART:20260521T190000Z
 SUMMARY:NSÍ - Víkingur -:-
-UID:5125e860-bd86-4d72-ac49-f365355d0a4f@5125.org
+UID:2178fd61-bae5-4bc8-98a8-c4d49686ee3b@2178.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 9\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
+DURATION:PT2H
+LOCATION:undir Mýruhjalla
+DTSTART:20260525T130000Z
+SUMMARY:Skála ÍF - Víkingur -:-
+UID:f1db17f3-083a-4cbf-89df-a205d548fbdd@f1db.org
 END:VEVENT
 END:VCALENDAR
