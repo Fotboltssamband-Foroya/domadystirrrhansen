@@ -2,20 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 2 hjálpardómari\n🔁 Umfar: 13\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 9\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
 DURATION:PT2H
-LOCATION:undir Mýruhjalla
-DTSTART:20260621T150000Z
-SUMMARY:Skála ÍF - NSÍ -:-
-UID:5f0f8e00-001f-4365-a450-ce223f966c68@5f0f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Johnleif Gerðisá\n2 hjálpardómari: Rói Reinert Hansen
-DURATION:PT2H
-LOCATION:Djúpumýra
-DTSTART:20260629T190000Z
-SUMMARY:KÍ - NSÍ -:-
-UID:0c1ee5c8-64ef-4075-ae66-50821457a49c@0c1e.org
+LOCATION:við Løkin
+DTSTART:20260705T230000Z
+SUMMARY:NSÍ - HB -:-
+UID:c9324bbb-c4f1-400b-bbc1-23fe154ae4d4@c932.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 1 hjálpardómari\n🔁 Umfar: 11\n📊 Støða: SPÆLT\n\n🧑‍⚖️ Dómarar:\nNo officials found
@@ -23,14 +15,22 @@ DURATION:PT2H
 LOCATION:Djúpumýra
 DTSTART:20260612T180000Z
 SUMMARY:KÍ - HB 0:1
-UID:f317887b-78dd-43bb-8bd0-eb7afbda7905@f317.org
+UID:24ace5b0-260c-4616-8f7c-5bc5897a371e@24ac.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 9\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Johnleif Gerðisá\n2 hjálpardómari: Rói Reinert Hansen
 DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20260705T230000Z
-SUMMARY:NSÍ - HB -:-
-UID:8bfd78ed-7685-4179-9fa4-6e6d0e98575f@8bfd.org
+LOCATION:Djúpumýra
+DTSTART:20260629T190000Z
+SUMMARY:KÍ - NSÍ -:-
+UID:560f7a77-4e9f-4e2b-adfa-009b165a6c12@560f.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 2 hjálpardómari\n🔁 Umfar: 13\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
+DURATION:PT2H
+LOCATION:undir Mýruhjalla
+DTSTART:20260621T150000Z
+SUMMARY:Skála ÍF - NSÍ -:-
+UID:9aefc101-e814-4f7e-af24-e9ade16f380b@9aef.org
 END:VEVENT
 END:VCALENDAR
