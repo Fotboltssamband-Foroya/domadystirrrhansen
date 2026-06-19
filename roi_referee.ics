@@ -2,12 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Johnleif Gerðisá\n2 hjálpardómari: Rói Reinert Hansen
+DURATION:PT2H
+LOCATION:Djúpumýra
+DTSTART:20260629T190000Z
+SUMMARY:KÍ - NSÍ -:-
+UID:09e349aa-9957-4d53-977a-892b47a7a77d@09e3.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 9\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
 DURATION:PT2H
 LOCATION:við Løkin
 DTSTART:20260705T230000Z
 SUMMARY:NSÍ - HB -:-
-UID:c2f08b9c-c339-44dd-9274-1011df43d21c@c2f0.org
+UID:7a981581-e568-4e6c-b5cb-92b9cac35ca4@7a98.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Meistaradeildin kvinnur innl. 2026\n👤 2 hjálpardómari\n🔁 Umfar: 13\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
@@ -15,14 +23,6 @@ DURATION:PT2H
 LOCATION:undir Mýruhjalla
 DTSTART:20260621T150000Z
 SUMMARY:Skála ÍF - NSÍ -:-
-UID:31c803e5-01c6-427c-a12b-b07ca50e694f@31c8.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 4\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nDómari: Jonn Sólheim Thomsen\n1 hjálpardómari: Johnleif Gerðisá\n2 hjálpardómari: Rói Reinert Hansen
-DURATION:PT2H
-LOCATION:Djúpumýra
-DTSTART:20260629T190000Z
-SUMMARY:KÍ - NSÍ -:-
-UID:ce02d8d2-b741-4f24-a85b-fe5a14257e26@ce02.org
+UID:30c6c177-a446-407c-b6e1-9fd43d53a075@30c6.org
 END:VEVENT
 END:VCALENDAR
