@@ -2,12 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 15\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
+DURATION:PT2H
+LOCATION:við Løkin
+DTSTART:20260824T190000Z
+SUMMARY:NSÍ - Skála ÍF -:-
+UID:6c4d9680-8bbf-49cd-ab17-93d0a4c55abe@6c4d.org
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 14\n📊 Støða: SPÆLT\n\n🧑‍⚖️ Dómarar:\nNo officials found
 DURATION:PT2H
 LOCATION:Djúpumýra
 DTSTART:20260817T190000Z
 SUMMARY:KÍ - Skála ÍF 3:0
-UID:edbb8dc7-19fb-45c9-869a-97a494748b85@edbb.org
+UID:43a2338d-f861-448b-9726-760a48a104b8@43a2.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 Løgmanssteypið kvinnur 2026\n👤 1 hjálpardómari\n🔁 Umfar: 1/2F\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
@@ -15,15 +23,7 @@ DURATION:PT2H
 LOCATION:í Sarpugerði
 DTSTART:20260901T230000Z
 SUMMARY:Víkingur - KÍ -:-
-UID:eea69d3f-eb89-4717-ab96-06f5b5d23b2e@eea6.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:🏆 U21 Dreingir 2026\n👤 2 hjálpardómari\n🔁 Umfar: 15\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
-DURATION:PT2H
-LOCATION:við Løkin
-DTSTART:20260824T190000Z
-SUMMARY:NSÍ - Skála ÍF -:-
-UID:0eb5c17f-1c2d-4055-a230-2e71da68d5e6@0eb5.org
+UID:76109f34-5208-4418-a44c-ea7267da6ab3@7610.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:🏆 U21 Dreingir 2026\n👤 1 hjálpardómari\n🔁 Umfar: 16\n📊 Støða: ÁSETT\n\n🧑‍⚖️ Dómarar:\nNo officials found
@@ -31,6 +31,6 @@ DURATION:PT2H
 LOCATION:undir Mýruhjalla
 DTSTART:20260831T184500Z
 SUMMARY:Skála ÍF - B36 -:-
-UID:29984079-f1db-4251-bf38-812c1fce5ba4@2998.org
+UID:af7ea8fc-7406-46f7-881b-41fcfdeda669@af7e.org
 END:VEVENT
 END:VCALENDAR
